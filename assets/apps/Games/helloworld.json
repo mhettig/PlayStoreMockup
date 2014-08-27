@@ -1,0 +1,36 @@
+{
+    "name": "Hello World",
+    "fileSize": 1337,
+    "isRelevant": true,
+    "downloadAmount": 1000000,
+    "version": "1.0.8",
+    "description": "This is a simple Hello World app.
+	
+	
+	
+	
+	Potato.",
+    "vendor": "Santa Claus",
+    "rating5": 67407,
+    "rating4": 37244,
+    "rating3": 3757,
+    "rating2": 215,
+    "rating1": 83,
+    "price": "",
+    "permissions": [
+        ],
+    "comments": [
+        {
+        	"title": "comment title",
+            "comment": "What a nice App!",
+            "rating": 5,
+            "date": "7/11/2014"				
+        },
+        {
+        	"title": "Awesome",
+            "comment": "Just awesome.",
+            "rating": 5,
+            "date": "7/10/2013"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <color name="background_grey_activity">#E5E5E5</color>
+    
+    <color name="background_grey_tabs">#EBEBEB</color>
+    
+    <color name="content_home">#666666</color>
+    <color name="content_apps">#96AA39</color>
+    <color name="content_movies">#C74B46</color>
+    <color name="content_music">#F4842D</color>
+    <color name="content_books">#3F9FE0</color>
+    <color name="content_magazines">#5161BC</color>
+    
+    <color name="greyCap">#333333</color>		<!-- for captions -->
+    <color name="greySub">#AAAAAA</color>		<!-- for subtitles -->
+    <color name="greyRating">#878787</color>	<!-- for rating stars -->
+    <color name="greyDetails">#777777</color>	<!-- for text in app detail screen -->
+    <color name="greyDivider1">#D5D5D5</color>	<!-- for listView divider-->
+    <color name="greyDivider2">#C3C3C3</color>	<!-- for divider in App Detail Screen-->
+    <color name="greyProgressBar">#BEBEBE</color>	<!-- for rating progressBar in App Detail Screen-->
+    
+    <color name="greenText">#B2CB39</color>		<!-- for text in apps-content like "free" or "3,50$" -->
+</resources>

@@ -1,0 +1,38 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Holo.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- http://android-developers.blogspot.co.uk/2011/04/customizing-action-bar.html -->
+
+    <style name="Holo.CustomTabBar" parent="android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Example</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+        <item name="@android:attr/actionBarTabTextStyle">@style/TabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/Divider</item>
+    </style>
+
+    <style name="ActionBar.Solid.Example" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/action_bar_bg_apps</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_example</item>
+    </style>
+
+    <!-- style for the tabs -->
+    <style name="MyActionBarTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@xml/tab_indicator_ab_example</item>
+    </style>
+
+    <!-- Modify the text color -->
+    <style name="TabStyle" parent="@android:style/Widget.Holo.Light.ActionBar.TabText.Inverse">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Divider" parent="@android:style/Widget.Holo.ActionBar.TabBar">
+        <item name="android:divider">@drawable/list_divider_holo_light</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12dip</item>
+    </style>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.mhettig.playstoremockup"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_play_store"
+        android:label="@string/app_name"
+        android:theme="@style/Holo.CustomTabBar" >
+        <activity
+            android:name="de.mhettig.playstoremockup.main.MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.mhettig.playstoremockup.content.apps.ProductsFragment"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.mhettig.playstoremockup.main.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.mhettig.playstoremockup.content.apps.CategoryFragment"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.mhettig.playstoremockup.main.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.mhettig.playstoremockup.content.apps.AppDetailActivity"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.mhettig.playstoremockup.content.apps.ProductsFragment" />
+        </activity>
+        <activity
+            android:name="de.mhettig.playstoremockup.content.apps.ScreenshotActivity"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.mhettig.playstoremockup.content.apps.AppDetailActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_home_apps"
+        android:orderInCategory="0"
+        android:showAsAction="never"
+        android:title="@string/menu_home_apps"/>
+    
+    <item
+        android:id="@+id/menu_home_wishlist"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/menu_home_wishlist"/>
+    
+    <item
+        android:id="@+id/menu_home_accounts"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/menu_home_accounts"/>
+    
+    <item
+        android:id="@+id/menu_home_settings"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="@string/menu_home_settings"/>
+    
+    <item
+        android:id="@+id/menu_home_help"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="@string/menu_home_help"/>
+    
+    <item
+        android:id="@+id/menu_home_imprint"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="@string/menu_home_imprint"/>
+
+</menu>

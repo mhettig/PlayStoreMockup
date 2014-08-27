@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="7dp"
+    android:paddingTop="7dp" >
+
+    <ImageView
+        android:id="@+id/appDetailCommentAvatar"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/comment_user_icon" />
+
+    <TextView
+        android:id="@+id/appDetailCommentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/appDetailCommentAvatar"
+        android:text="Titel des Kommentars"
+        android:textColor="@color/greyRating"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/appDetailCommentStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appDetailCommentTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/appDetailCommentAvatar"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/appDetailCommentStar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rate_star_market_off" />
+
+        <ImageView
+            android:id="@+id/appDetailCommentStar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rate_star_market_off" />
+
+        <ImageView
+            android:id="@+id/appDetailCommentStar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rate_star_market_off" />
+
+        <ImageView
+            android:id="@+id/appDetailCommentStar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rate_star_market_off" />
+
+        <ImageView
+            android:id="@+id/appDetailCommentStar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rate_star_market_off" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/appDetailCommentUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appDetailCommentTitle"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/appDetailCommentStars"
+        android:text="@string/details_comments_user"
+        android:textColor="@color/greyDetails"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/appDetailCommentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appDetailCommentTitle"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/appDetailCommentUser"
+        android:text="4/26/2013"
+        android:textColor="@color/greyDetails" />
+
+    <TextView
+        android:id="@+id/appDetailCommentBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appDetailCommentStars"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/appDetailCommentAvatar"
+        android:text="Test test test"
+        android:textColor="@color/greyDetails" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/appDetailCommentBody"
+        android:background="@color/greyDivider2" />
+
+</RelativeLayout>

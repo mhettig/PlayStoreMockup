@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="88dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card_background" >
+
+        <ImageView
+            android:id="@+id/productRowIcon"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/productRowTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/productRowIcon"
+            android:singleLine="true"
+            android:textColor="@color/greyCap"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/productRowVendor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productRowTitle"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/productRowIcon"
+            android:singleLine="true"
+            android:textColor="@color/greySub"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productRowVendor"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/productRowIcon"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/productRowRating1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_rate_star_market_off" />
+
+            <ImageView
+                android:id="@+id/productRowRating2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_rate_star_market_off" />
+
+            <ImageView
+                android:id="@+id/productRowRating3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_rate_star_market_off" />
+
+            <ImageView
+                android:id="@+id/productRowRating4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_rate_star_market_off" />
+
+            <ImageView
+                android:id="@+id/productRowRating5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_rate_star_market_off" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/productRowPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/greenText"
+            android:textSize="11dp" />
+
+        <ImageButton
+            android:id="@+id/productRowMenuBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="3dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_menu_moreoverflow_card_dark_normal" />
+    </RelativeLayout>
+
+</LinearLayout>

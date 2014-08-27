@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Play Store Mockup</string>
+    
+    <!-- content titles -->
+    <string name="title_home">Google Play</string>
+    <string name="title_apps">Apps</string>
+    <string name="title_games">Games</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_music">Music</string>
+    <string name="title_books">Books</string>
+    <string name="title_magazines">Magazines</string>
+
+    <!-- content titles capitalized (buttons on the home screen) -->
+    <string name="title_apps_cap">APPS</string>
+    <string name="title_games_cap">GAMES</string>
+    <string name="title_movies_cap">MOVIES</string>
+    <string name="title_music_cap">MUSIC</string>
+    <string name="title_books_cap">BOOKS</string>
+    <string name="title_magazines_cap">MAGAZINES</string>
+
+    <!-- Menu: Homescreen -->
+    <string name="menu_home_apps">My apps</string>
+    <string name="menu_home_wishlist">My Wishlist</string>
+    <string name="menu_home_accounts">Accounts</string>
+    <string name="menu_home_settings">Settings</string>
+    <string name="menu_home_help">Help</string>
+    <string name="menu_home_imprint">Imprint</string>
+
+    <!-- Tab titles -->
+    <string name="tab_title_categories">CATEGORIES</string>
+    <string name="tab_title_home">HOME</string>
+    <string name="tab_title_paid">TOP PAID</string>
+    <string name="tab_title_free">TOP FREE</string>
+    <string name="tab_title_grossing">TOP GROSSING</string>
+    <string name="tab_title_newPaid">TOP NEW PAID</string>
+    <string name="tab_title_newFree">TOP NEW FREE</string>
+    <string name="tab_title_trending">TRENDING</string>
+
+    <!-- App Detail Screen -->
+    <string name="details_description">Description</string>
+    <string name="details_whats_new">What\'s new</string>
+    <string name="details_comments_title">Reviews</string>
+    <string name="details_comments_user">A Google User</string>
+    <string name="details_btn_install">INSTALL</string>
+    <string name="details_rating_average">Average</string>
+    <string name="details_rating_1star">1 star</string>
+    <string name="details_rating_2stars">2 stars</string>
+    <string name="details_rating_3stars">3 stars</string>
+    <string name="details_rating_4stars">4 stars</string>
+    <string name="details_rating_5stars">5 stars</string>
+    
+    <!-- Permission Dilaog -->
+    <string name="perm_title">App permissions</string>
+    <string name="perm_btn_accept">ACCEPT</string>
+
+    <!-- Categories: Apps -->
+    <string-array name="cat_apps_array">
+        <item>Games</item>
+        <item>Books &amp; Reference</item> 
+        <item>Business</item>
+        <item>Comics</item> 
+        <item>Communication</item> 
+        <item>Education</item> 
+        <item>Entertainment</item> 
+        <item>Finance</item>
+        <item>Health &amp; Fitness</item> 
+        <item>Libraries &amp; Demo</item> 
+        <item>Lifestyle</item> 
+        <item>Live Wallpaper</item> 
+        <item>Media &amp; Video</item> 
+        <item>Medical</item> 
+        <item>Music &amp; Audio</item>  
+        <item>News &amp; Magazines</item> 
+        <item>Personalization</item> 
+        <item>Photography</item>
+        <item>Productivity</item> 
+        <item>Shopping</item> 
+        <item>Social</item> 
+        <item>Sports</item> 
+        <item>Tools</item>
+        <item>Transportation</item> 
+        <item>Travel &amp; Local</item> 
+        <item>Weather</item>
+        <item>Widgets</item> 
+    </string-array>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_grey_activity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="22dp"
+            android:text="Staff Picks"
+            android:textColor="@color/greyCap"
+            android:textSize="21dp"
+            android:textStyle="italic" />
+
+        <GridView
+            android:id="@+id/apphome_gridView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:horizontalSpacing="9dp"
+            android:numColumns="3"
+            android:padding="7dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="7dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="22dp"
+            android:text="Recommended for you"
+            android:textColor="@color/greyCap"
+            android:textSize="21dp"
+            android:textStyle="italic" />
+
+        <GridView
+            android:id="@+id/apphome_gridView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:horizontalSpacing="9dp"
+            android:numColumns="2"
+            android:padding="7dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="7dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="22dp"
+            android:text="Trending"
+            android:textColor="@color/greyCap"
+            android:textSize="21dp"
+            android:textStyle="italic" />
+
+        <GridView
+            android:id="@+id/apphome_gridView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:horizontalSpacing="9dp"
+            android:numColumns="3"
+            android:padding="7dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="7dp" />
+    </LinearLayout>
+
+</ScrollView>
