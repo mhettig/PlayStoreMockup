@@ -2,7 +2,7 @@
 
 Back in 2013 I developed a mockup of Googles Play Store for research purposes. The [paper](http://dl.acm.org/citation.cfm?id=2556978) I contributed to was then puplished on the [CHI 2014](http://chi2014.acm.org/) - the premier international conference of Human-Computer Interaction.
 
-This mockup is based on Googles Plays Store version 4.0.27. Take a look at the screenshots to see the similarity to the original store. 
+This mockup is based on Googles Plays Store version 4.1.10. Take a look at the screenshots to see the similarity to the original store. 
 
 Due to possible copyright issues there is just one (demo) app inside this repository and you "only" see the non-research version without our improvements mentioned in the paper.
 
